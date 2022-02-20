@@ -1,0 +1,76 @@
+Solana voting contarct
+program_id = 9c5H15eoRQqEbCi9gMRGdcXBnQHE6eBVBcTFhn5n3yS3
+Ballot Name : Presidential Election 2022
+Ballot Ptivate Key =  199,4,242,159,73,81,207,180,74,188,180,127,176,129,241,120,165,234,166,168,183,95,174,15,101,138,192,198,75,160,197,218,16,121,110,94,161,107,169,88,193,88,200,218,0,236,80,33,198,124,146,241,237,245,107,235,255,92,93,97,131,27,87,171
+Caller = HibSTqXcPS78yyGquHrPE7YBXpZU2E73m4yrQ4wB2LmU
+ballotKey = 27JvDNstZdnNBWBcWqXBRNEzez8PF8mz8x1hayi1Ww2r
+SystemProgram.progId = 11111111111111111111111111111111
+confirmation sig: 4yExNoB4pqc1gb4jG86rvcYFdhYHVKA67LCqSLRCSBmkYGa9qgUmfgw3KTWt2vVkDxZmubGoEy7qqqqdH3nhmcvT
+
+Onchain Data:
+Signature: 4yExNoB4pqc1gb4jG86rvcYFdhYHVKA67LCqSLRCSBmkYGa9qgUmfgw3KTWt2vVkDxZmubGoEy7qqqqdH3nhmcvT
+  Status: Ok
+  Log Messages:
+    Program 9c5H15eoRQqEbCi9gMRGdcXBnQHE6eBVBcTFhn5n3yS3 invoke [1]
+    Program log: Rust program entrypoint
+    Program log: tag : 1 rest [26, 0, 0, 0, 80, 114, 101, 115, 105, 100, 101, 110, 116, 105, 97, 108, 32, 69, 108, 101, 99, 116, 105, 111, 110, 32, 50, 48, 50, 50]
+    Program log: invoked for create ballot
+    Program log: creating ballot with name "Presidential Election 2022"
+    Program log: creating ballot name "Presidential Election 2022"
+    Program log: ballot acc AccountInfo { key: 27JvDNstZdnNBWBcWqXBRNEzez8PF8mz8x1hayi1Ww2r, owner: 11111111111111111111111111111111, is_signer: true, is_writable: true, executable: false, rent_epoch: 0, lamports: 0, data.len: 0, .. }
+    Program log: name "Presidential Election 2022"
+    Program log: chairPersonKey HibSTqXcPS78yyGquHrPE7YBXpZU2E73m4yrQ4wB2LmU
+    Program log: Ballot in memory Ballot {
+    name: "Presidential Election 2022",
+    chairPerson: HibSTqXcPS78yyGquHrPE7YBXpZU2E73m4yrQ4wB2LmU,
+    proposals: [
+        Proposal {
+            id: 0,
+            name: "Propsal 0",
+            voteCount: 0,
+        },
+        Proposal {
+            id: 1,
+            name: "Propsal 1",
+            voteCount: 0,
+        },
+        Proposal {
+            id: 2,
+            name: "Propsal 2",
+            voteCount: 0,
+        },
+    ],
+    voters: {},
+}
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program log: Ballot create_result ()
+    Program log: Ballot account creatd AccountInfo {
+    key: 27JvDNstZdnNBWBcWqXBRNEzez8PF8mz8x1hayi1Ww2r,
+    owner: 9c5H15eoRQqEbCi9gMRGdcXBnQHE6eBVBcTFhn5n3yS3,
+    is_signer: true,
+    is_writable: true,
+    executable: false,
+    rent_epoch: 0,
+    lamports: 500000000000,
+    data.len: 124,
+    data: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+    ..
+}
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program log: assign result ()
+    Program log: Ballot account data AccountInfo {
+    key: 27JvDNstZdnNBWBcWqXBRNEzez8PF8mz8x1hayi1Ww2r,
+    owner: 9c5H15eoRQqEbCi9gMRGdcXBnQHE6eBVBcTFhn5n3yS3,
+    is_signer: true,
+    is_writable: true,
+    executable: false,
+    rent_epoch: 0,
+    lamports: 500000000000,
+    data.len: 124,
+    data: 1a000000507265736964656e7469616c20456c656374696f6e2032303232f862be8b06125704be52027e20fa33aa3dfc296630094c4f273ce40f5a99c1870300,
+    ..
+}
+    Program 9c5H15eoRQqEbCi9gMRGdcXBnQHE6eBVBcTFhn5n3yS3 consumed 250967 of 1400000 compute units
+    Program 9c5H15eoRQqEbCi9gMRGdcXBnQHE6eBVBcTFhn5n3yS3 success

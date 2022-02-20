@@ -1,0 +1,36 @@
+    'Program 9c5H15eoRQqEbCi9gMRGdcXBnQHE6eBVBcTFhn5n3yS3 invoke [1]',
+    'Program log: Rust program entrypoint',
+    'Program log: tag : 1 rest [26, 0, 0, 0, 80, 114, 101, 115, 105, 100, 101, 110, 116, 105, 97, 108, 32, 69, 108, 101, 99, 116, 105, 111, 110, 32, 50, 48, 50, 50]',
+    'Program log: invoked for create ballot',
+    'Program log: creating ballot with name "Presidential Election 2022"',
+    'Program log: creating ballot name "Presidential Election 2022"',
+    'Program log: ballot acc AccountInfo { key: 2v6dyXeJstm1exyCJKhimYKsmoQ2tsq2nScrkrsz5VWG, owner: 11111111111111111111111111111111, is_signer: false, is_writable: true, executable: false, rent_epoch: 0, lamports: 0, data.len: 0, .. }',
+    'Program log: name "Presidential Election 2022"',
+    'Program log: chairPersonKey HibSTqXcPS78yyGquHrPE7YBXpZU2E73m4yrQ4wB2LmU',
+    'Program log: Ballot in memory Ballot {\n' +
+      '    name: "Presidential Election 2022",\n' +
+      '    chairPerson: HibSTqXcPS78yyGquHrPE7YBXpZU2E73m4yrQ4wB2LmU,\n' +
+      '    proposals: [\n' +
+      '        Proposal {\n' +
+      '            id: 0,\n' +
+      '            name: "Propsal 0",\n' +
+      '            voteCount: 0,\n' +
+      '        },\n' +
+      '        Proposal {\n' +
+      '            id: 1,\n' +
+      '            name: "Propsal 1",\n' +
+      '            voteCount: 0,\n' +
+      '        },\n' +
+      '        Proposal {\n' +
+      '            id: 2,\n' +
+      '            name: "Propsal 2",\n' +
+      '            voteCount: 0,\n' +
+      '        },\n' +
+      '    ],\n' +
+      '    voters: {},\n' +
+      '}',
+    "2v6dyXeJstm1exyCJKhimYKsmoQ2tsq2nScrkrsz5VWG's signer privilege escalated",
+    'Program 9c5H15eoRQqEbCi9gMRGdcXBnQHE6eBVBcTFhn5n3yS3 consumed 123503 of 1400000 compute units',
+    'Program 9c5H15eoRQqEbCi9gMRGdcXBnQHE6eBVBcTFhn5n3yS3 failed: Cross-program invocation with unauthorized signer or writable account'
+  ]
+}

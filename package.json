@@ -1,0 +1,17 @@
+{
+  "name": "solana-voting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "contract:build": "cd contract && cargo build-bpf --manifest-path=./Cargo.toml --bpf-out-dir=dist/program",
+    "contract:test": "cd contract && cargo test-bpf",
+    "contract:deploy": "cd contract && solana deploy dist/program/solana_voting_contract.so"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.34.0",
+    "borsh": "^0.7.0"
+  },
+  "type": "module"
+}
